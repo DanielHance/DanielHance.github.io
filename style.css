@@ -3,13 +3,18 @@
     font-size: 16px;
 }
 
-.container 
-{
-    color: red;
+.container {
+    background-color: #0c0d07;
     align-self: center;
     border: 0px;
 }
 
 p {
     font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+    color: #d8c6ba;
+}
+
+h2 {
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+    color: #617246;
 }
