@@ -54,9 +54,9 @@ hr {
 .largeVideo {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%;
+    padding-bottom: 25px;
+    padding-top: 25px;
     height: 0;
-    align-self: flex-start;
 }
 .largeVideo iframe{
     position: absolute;
@@ -70,13 +70,14 @@ hr {
     position: relative;
     flex: 39%;
     padding: 5px;
-    padding-bottom: 56.25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: 0;
-    align-self: flex-start;
 }
 .smallVideo iframe{
     position:absolute;
     width: 90%;
+    height: 90%;
 }
 
 
