@@ -63,6 +63,8 @@ hr {
     position: absolute;
     width: 90%;
     height: 90%;
+    left: 0;
+    top: 0;
 }
 
 
