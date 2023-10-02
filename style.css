@@ -41,7 +41,7 @@ hr {
 }
 
 @media only screen and (max-width: 1000px){
-    .wrapper-man {
+    .container {
         width: 100%;
     }
 }
