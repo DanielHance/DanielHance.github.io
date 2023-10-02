@@ -1,4 +1,10 @@
-﻿section
+﻿html 
+{
+    font-size: 16px;
+    font-family: "Gabriola", Gabriola;
+}
+
+div.container 
 {
     color: red;
 }
