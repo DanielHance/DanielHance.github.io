@@ -1,6 +1,6 @@
-﻿html 
-{
-    font-size:  62%;
+﻿html {
+    font-size: 62%;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
 }
 
 
@@ -23,7 +23,6 @@ body{
 
 
 p {
-    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
     color: white;
     font-size: 2.6rem;
 }
@@ -31,7 +30,6 @@ p {
 
 
 h1 {
-    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
     color: white;
     font-size: 9.2rem;
 }
@@ -39,7 +37,6 @@ h1 {
 
 
 h2 {
-    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
     color: white;
     font-size: 4.9rem;
 }
@@ -71,10 +68,8 @@ hr {
 
 
 .smallVideo {
-    position:relative;
-    right: 0;
-    width: 40%;
-    height: 0;
+   flex: 40%;
+   padding: 5px;
 }
 .smallVideo {
     position:absolute;
@@ -87,11 +82,15 @@ hr {
 
 
 .leftText {
-    position:relative;
-    left: 0;
-    width: 59%;
+    flex: 59%;
+    padding: 5px;
 }
 
+
+
+.row {
+    display: flex;
+}
 
 
 @media only screen and (max-width: 1000px){
