@@ -71,7 +71,7 @@ hr {
    flex: 40%;
    padding: 5px;
 }
-.smallVideo {
+.smallVideo iframe{
     position:absolute;
     top:0 ;
     left: 0;
