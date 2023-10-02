@@ -59,10 +59,11 @@ hr {
     background-color: red; /*For DEBUG*/
 }
 .largeVideo iframe{
-    display: block;
+    position: absolute;
     width: 90%;
     height: 90%;
-    margin: auto;
+    left: 5%;
+    top: 5%;
 }
 
 
