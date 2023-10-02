@@ -9,6 +9,12 @@
     height: 900px;
 }
 
+.test{
+    background-color: red;
+    width: 60px;
+    height: 60px;
+}
+
 p {
     font-family: "PT Sans", Calibri, Tahoma, sans-serif;
     color: #d8c6ba;
