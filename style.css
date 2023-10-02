@@ -3,10 +3,14 @@
     font-size:  62%;
 }
 
+
+
 body{
     text-align: center;
     background-color: darkgray;
 }
+
+
 
 .container {
     background-color: black;
@@ -16,11 +20,15 @@ body{
     border: 4px solid black;
 }
 
+
+
 p {
     font-family: "PT Sans", Calibri, Tahoma, sans-serif;
     color: white;
     font-size: 2.6rem;
 }
+
+
 
 h1 {
     font-family: "PT Sans", Calibri, Tahoma, sans-serif;
@@ -28,11 +36,15 @@ h1 {
     font-size: 9.2rem;
 }
 
+
+
 h2 {
     font-family: "PT Sans", Calibri, Tahoma, sans-serif;
     color: white;
-    font-size: 3.9rem;
+    font-size: 4.9rem;
 }
+
+
 
 hr {
     background-color: white;
@@ -40,19 +52,47 @@ hr {
     height: 1px;
 }
 
-.smallVideo{
+
+
+.largeVideo{
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
 }
-.smallVideo iframe{
+.largeVideo iframe{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
 }
+
+
+
+.smallVideo {
+    position:relative;
+    right: 0;
+    width: 40%;
+    height: 0;
+}
+.smallVideo {
+    position:absolute;
+    top:0 ;
+    left: 0;
+    width: 90%;
+    height: 90%;
+}
+
+
+
+.leftText {
+    position:relative;
+    left: 0;
+    width: 59%;
+}
+
+
 
 @media only screen and (max-width: 1000px){
     .container {
