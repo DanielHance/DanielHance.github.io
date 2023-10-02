@@ -4,7 +4,9 @@
     font-family: "Gabriola", Gabriola;
 }
 
-div.container 
+.container 
 {
     color: red;
+    align-self: center;
+    border: 0px;
 }
