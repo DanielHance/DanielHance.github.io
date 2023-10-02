@@ -1,7 +1,6 @@
 ﻿html 
 {
     font-size: 16px;
-    font-family: "Gabriola", Gabriola;
 }
 
 .container 
@@ -9,4 +8,8 @@
     color: red;
     align-self: center;
     border: 0px;
+}
+
+p {
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
 }
