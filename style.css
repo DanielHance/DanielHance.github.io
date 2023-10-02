@@ -68,10 +68,11 @@ hr {
 
 
 .smallVideo {
-   position: relative;
-   flex: 40%;
-   padding: 5px;
-   height: 0;
+    position: relative;
+    flex: 39%;
+    padding: 5px;
+    padding-bottom: 56.25%;
+    height: 0;
 }
 .smallVideo iframe{
     position:absolute;
