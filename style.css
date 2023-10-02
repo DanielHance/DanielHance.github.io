@@ -68,6 +68,7 @@ hr {
 
 
 .smallVideo {
+   position: relative;
    flex: 40%;
    padding: 5px;
 }
