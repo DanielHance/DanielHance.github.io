@@ -4,12 +4,10 @@
 }
 
 
-
 body{
     text-align: center;
     background-color: darkgray;
 }
-
 
 
 .container {
@@ -21,12 +19,10 @@ body{
 }
 
 
-
 p {
     color: white;
     font-size: 100%;
 }
-
 
 
 h1 {
@@ -35,12 +31,10 @@ h1 {
 }
 
 
-
 h2 {
     color: white;
     font-size: 130%;
 }
-
 
 
 hr {
@@ -48,7 +42,6 @@ hr {
     border: none;
     height: 1px;
 }
-
 
 
 .largeVideo {
@@ -68,12 +61,11 @@ hr {
 }
 
 
-
 .rightText {
     width: 40%;
     background-color: red; /*For debug*/
+    align-self: center;
 }
-
 
 
 .leftText {
@@ -84,27 +76,8 @@ hr {
 }
 
 
-/*
-.smallVideo {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-    background-color: red; /*For DEBUG
-}
-.smallVideo iframe {
-    position: absolute;
-    width: 90%;
-    height: 90%;
-    left: 5%;
-    top: 5%;
-}
-*/
-
-
-
 .row {
-    display: flex;
+    /*display: flex;*/
     padding: 1%;
     background-color: blue;
 }
@@ -115,19 +88,12 @@ hr {
         width: 100%;
     }
 }
-
 @media only screen and (max-width: 630px) {
     .leftText {
         width: 100%;
-        align-self: center;
-        background-color: green;
     }
-}
-
-@media only screen and (max-width: 63opx){
     .rightText {
         width: 100%;
-        align-self: center;
     }
 }
   
