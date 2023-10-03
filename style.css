@@ -71,6 +71,9 @@ hr {
     align-self: flex-start;
     text-align: left;
 }
+.leftText h2{
+    text-align: center;
+}
 
 
 .row {
@@ -84,7 +87,7 @@ hr {
         width: 100%;
     }
 }
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 630px) { /*Size vertial layout is applyed*/
     .leftText {
         width: 100%;
     }
