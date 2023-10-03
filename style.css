@@ -31,14 +31,14 @@ p {
 
 h1 {
     color: white;
-    font-size: 100%;
+    font-size: 200%;
 }
 
 
 
 h2 {
     color: white;
-    font-size: 100%;
+    font-size: 130%;
 }
 
 
@@ -69,10 +69,18 @@ hr {
 
 
 .textRight {
-    position: relative;
     flex: 39%;
     background-color: red; /*For debug*/
 }
+
+
+
+.leftText {
+    flex: 59%;
+    align-self: flex-start;
+}
+
+
 
 .smallVideo {
     position: relative;
@@ -89,11 +97,6 @@ hr {
     top: 0;
 }
 
-
-.leftText {
-    flex: 59%;
-    align-self: flex-start;
-}
 
 
 
