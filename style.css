@@ -51,14 +51,14 @@ hr {
 
 
 
-.largeVideo {
+.video {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
     background-color: red; /*For DEBUG*/
 }
-.largeVideo iframe{
+.video iframe{
     position: absolute;
     width: 90%;
     height: 90%;
@@ -70,6 +70,9 @@ hr {
 
 .rightText {
     width: 40%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     background-color: red; /*For debug*/
 }
 
@@ -77,26 +80,13 @@ hr {
 
 .leftText {
     width: 59%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     align-self: flex-start;
     background: yellow;
 }
 
-
-
-.smallVideo {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-    background-color: green;
-}
-.smallVideo iframe{
-    position:absolute;
-    width: 90%;
-    height: 90%;
-    left: 5%;
-    top: 5%;
-}
 
 
 
