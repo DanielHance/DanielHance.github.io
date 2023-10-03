@@ -50,7 +50,6 @@ hr {
     padding-bottom: 56.25%;
     height: 0;
     align-self: center;
-    background-color: red; /*For DEBUG*/
 }
 .largeVideo iframe{
     position: absolute;
@@ -62,8 +61,7 @@ hr {
 
 
 .rightText {
-    width: 40%;
-    background-color: red; /*For debug*/
+    width: 39%;
     align-self: center;
 }
 
@@ -71,7 +69,6 @@ hr {
 .leftText {
     width: 59%;
     align-self: flex-start;
-    background: yellow;
     text-align: left;
 }
 
@@ -79,7 +76,6 @@ hr {
 .row {
     display: flex;
     padding: 1%;
-    background-color: blue;
 }
 
 
@@ -99,4 +95,3 @@ hr {
         display: block;
     }
 }
-  
