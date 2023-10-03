@@ -51,14 +51,14 @@ hr {
 
 
 
-.video {
+.largeVideo {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
     background-color: red; /*For DEBUG*/
 }
-.video iframe{
+.largeVideo iframe{
     position: absolute;
     width: 90%;
     height: 90%;
@@ -87,6 +87,22 @@ hr {
     background: yellow;
 }
 
+
+
+.smallVideo {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    background-color: green;
+}
+.smallVideo iframe{
+    position:absolute;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+}
 
 
 
