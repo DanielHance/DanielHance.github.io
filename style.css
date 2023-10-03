@@ -77,7 +77,7 @@ hr {
 
 
 .row {
-    /*display: flex;*/
+    display: flex;
     padding: 1%;
     background-color: blue;
 }
@@ -94,6 +94,9 @@ hr {
     }
     .rightText {
         width: 100%;
+    }
+    .row {
+        display: block;
     }
 }
   
