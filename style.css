@@ -71,8 +71,6 @@ hr {
 
 .rightText {
     width: 40%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
     background-color: red; /*For debug*/
 }
 
@@ -80,8 +78,6 @@ hr {
 
 .leftText {
     width: 59%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
     align-self: flex-start;
     background: yellow;
 }
