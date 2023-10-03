@@ -23,21 +23,21 @@ body{
 
 p {
     color: white;
-    font-size: 20%;
+    font-size: 100%;
 }
 
 
 
 h1 {
     color: white;
-    font-size: 75%;
+    font-size: 100%;
 }
 
 
 
 h2 {
     color: white;
-    font-size: 55%;
+    font-size: 100%;
 }
 
 
@@ -93,6 +93,9 @@ hr {
 
 .row {
     display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
 }
 
 
