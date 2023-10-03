@@ -1,5 +1,4 @@
 ﻿html {
-    font-size: 62%;
     font-family: "PT Sans", Calibri, Tahoma, sans-serif;
 }
 
@@ -24,21 +23,21 @@ body{
 
 p {
     color: white;
-    font-size: 2.6rem;
+    font-size: 5%;
 }
 
 
 
 h1 {
     color: white;
-    font-size: 9.2rem;
+    font-size: 20%;
 }
 
 
 
 h2 {
     color: white;
-    font-size: 4.9rem;
+    font-size: 10%;
 }
 
 
@@ -79,8 +78,8 @@ hr {
     position:absolute;
     width: 90%;
     height: 90%;
-    left: 0;
-    top: 0;
+    left: 5%;
+    top: 5%;
 }
 
 
