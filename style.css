@@ -84,13 +84,13 @@ hr {
 }
 
 
-
+/*
 .smallVideo {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
-    background-color: red; /*For DEBUG*/
+    background-color: red; /*For DEBUG
 }
 .smallVideo iframe {
     position: absolute;
@@ -99,6 +99,7 @@ hr {
     left: 5%;
     top: 5%;
 }
+*/
 
 
 
@@ -111,6 +112,15 @@ hr {
 
 @media only screen and (max-width: 1000px){
     .container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 630px){
+    .leftText {
+        width: 100%;
+    }
+    .rightText {
         width: 100%;
     }
 }
