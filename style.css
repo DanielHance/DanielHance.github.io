@@ -120,6 +120,7 @@ hr {
     .leftText {
         width: 100%;
         align-self: center;
+        background-color: green;
     }
     .rightText {
         width: 100%;
