@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
-    <link href="style.css" rel="stylesheet"> 
-    <title>MAIN PAGE</title>
+    <link href="style.css" rel="stylesheet">
+    <title>Daniel Hance Portfolio</title>
 </head>
 
 
@@ -16,57 +16,131 @@
 <body>
     <div class="container">
         <h1>Daniel Hance</h1>
-        <h2>Programmer</h2>
-        <p>c++, ect, ect, ect</p>
+        <h2>General Programmer</h2>
+        <p>C++, c# ,openGL, SDL2, Unreal, Unity, cmake</p>
+        <p></p>
         <hr />
+        <!-----------------------------------------Game Studio Project-->
+        <p></p>
+        <div class="textMiddle">
+            <h2>Spirits Unbound (Vertical Sliced Demo)</h2>
+        </div>
         <div class="largeVideo">
-            <iframe width="512" height="315" src="https://www.youtube.com/embed/qohtBT0SvUw?si=BWNVAZBELMYBucf_" title="Audio Examples" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QxAibGXYVT0?si=WZ6muajjOKO1Lw-x" title="Spirits Unbound - 5 Minute Playthrough" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <!--<div class="largeVideo">
+            <iframe width="512" height="315" src="https://www.youtube.com/embed/qohtBT0SvUw?si=BWNVAZBELMYBucf_" title="TEMP CHANGE VIDEO LATER" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>-->
+        <div class="textMiddle">
+            <p>
+                Spirits Unbound is a third person open world game set in a world based on Native American tribes, the game was created in ue5 by a team
+                of 11 people (8 artists and 3 programmers). The game involves exploring the open world, defeating enemy tribes, changing the weather with
+                rituals, hunting animals and discovering secrets. A key aspect of the game is that every human character has a spirite animal which their
+                soul is connected to, in gameplay terms this means that they share heath and can both attack targets.
+            </p>
+            <p></p>
+            <p>
+                I took on the role of lead programmer in the group which meant I was responsible for distributing all of the programming tasks, overseeing
+                the technical design document and managing source control for the project. The areas of the game that I was responsible for programming were
+                the enemy AI and the multiple animal companions AI (this can be seen in the AI test video above). I also worked on a lot of odd jobs including
+                triggers, player combat, hunting and helping the other programmer with some of their tasks. For more info check pages 7 to 11 of the technical
+                design doc.
+            </p>
+            <p></p>
+            <p>
+                Duo to the hardware we had available the map and the game mechanics were created in diffrent ue5 projects, I was also reasonable for moving
+                the assets between the dev project and the main game project and dealing with all the errors that this process created.
+            </p>
+            <p></p>
+            <h3>
+                <!--<a href='https://github.com/DanielHance/Project_Tomahawk/network'>Download</a>-->
+                "      "<a href="include/ProjectPlan.pdf">Project Plan</a>
+                <!--"      "<a href="include/GDD.pdf">Game Design Doc</a>-->
+                "      "<a href="include/TDD.pdf">Technical Design Doc</a>
+            </h3>
+            <p> </p>
         </div>
         <hr />
-
-
-        <div class="row">
-            <div class="leftText">
-                <h2>h2 tag test</h2>
-                <p>Test Text, this is some test text to see hoiw this will effect the plase that the video ends up going, lets see sall we</p>
-            </div>
-            <div class="rightText">
-                <div class="largeVideo">
-                    <iframe width="512" height="315" src="https://www.youtube.com/embed/qohtBT0SvUw?si=BWNVAZBELMYBucf_" title="Audio Examples" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-            </div>
+        <!--------------------------------------Physics Engine-->
+        <p></p>
+        <div class="textMiddle">
+            <h2>Physics Engine</h2>
+        </div>
+        <div class="largeVideo">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MvLs7lJN9_c?si=PgrnmMaQVPYVAFwL" title="Physics Engine Demo" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="textMiddle">
+            <p>
+                My physics engine can simulate both static and dynamic sphere movement, the dynamic simulates both directional and rotational movement
+                using velocity, friction, weight, elasticity and gravity as well as handling collision responses with the floor and other spheres.
+                The physical properties of the spheres can be edited in an external text document to create a wide range of situations to simulate.
+                The whole physics engine is built on top of an existing graphcis engine built using openGL.
+            </p>
+            <p></p>
+            <h3>
+                <a href='https://github.com/DanielHance/Physics-Sim'>Code</a>
+                "      "<a href="include/PhysicsDoc.pdf">Documentation</a>
+            </h3>
+            <p> </p>
         </div>
         <hr />
-
-
-        <div class="row">
-            <div class="leftText">
-                <p>Test Text, this is some test text to see hoiw this will effect the plase that the video ends up going, lets see sall we</p>
-                <p>Test Text, this is some test text to see hoiw this will effect the plase that the video ends up going, lets see sall we</p>
-                <p>Test Text, this is some test text to see hoiw this will effect the plase that the video ends up going, lets see sall we</p>
-                <p>Test Text, this is some test text to see hoiw this will effect the plase that the video ends up going, lets see sall we</p>
-                <p>Test Text, this is some test text to see hoiw this will effect the plase that the video ends up going, lets see sall we</p>
-                <p>Test Text, this is some test text to see hoiw this will effect the plase that the video ends up going, lets see sall we</p>
-                <p>Test Text, this is some test text to see hoiw this will effect the plase that the video ends up going, lets see sall we</p>
-                <p>Test Text, this is some test text to see hoiw this will effect the plase that the video ends up going, lets see sall we</p>
-                <p>Test Text, this is some test text to see hoiw this will effect the plase that the video ends up going, lets see sall we</p>
-                <p>Test Text, this is some test text to see hoiw this will effect the plase that the video ends up going, lets see sall we</p>
-                <p>Test Text, this is some test text to see hoiw this will effect the plase that the video ends up going, lets see sall we</p>
-                <p>Test Text, this is some test text to see hoiw this will effect the plase that the video ends up going, lets see sall we</p>
-                <p>Test Text, this is some test text to see hoiw this will effect the plase that the video ends up going, lets see sall we</p>
-            </div>
-            <div class="rightText">
-                <div class="largeVideo">
-                    <iframe width="512" height="315" src="https://www.youtube.com/embed/qohtBT0SvUw?si=BWNVAZBELMYBucf_" title="Audio Examples" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-            </div>
+        <!-----------------------------------------OpenGL Engine-->
+        <p></p>
+        <div class="textMiddle">
+            <h2>OpenGL Game</h2>
+        </div>
+        <div class="largeVideo">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0JvGx2oZtWw?si=bh3DfrJ8RrPD85Hd" title="OpenGL Game" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="textMiddle">
+            <p>
+                This basic 3d game was made entirely from scratch using OpenGL and SDL2, the aim of this project was to wrap the OpenGL elements into
+                classes to create a graphics library that could be used to create basic 3d games without needing to use raw OpenGL code. The program is
+                capable of both perspective and orthographic projections and renders the scene to an OpenGL render texture which allows multiple postprocessing
+                shaders to be ran before the scene is pushed to the display buffer. The game itself is an endless scroller where you doge zombies which was made
+                to demo the graphics library.
+            </p>
+            <p></p>
+            <h3><a href='https://github.com/DanielHance/OpenGL-Game'>Code</a></h3>
+            <p> </p>
         </div>
         <hr />
-
-
-        <p>Checking3</p>
-
-
+        <!--------------------------------What I am currenly Working on-->
+        <h2>Current Projects</h2>
+        <div class="textMiddle">
+            <p>
+                I am currently working on creating a multithreaded raytracer which supports PBR, shadows and reflections on sphere and other regular polyhedron.
+                I am also working on my own c++ game engine using the OpenGL, OpenAL, SDL2 and Bullet which I plan on using to create a FPS game.
+            </p>
+            <p></p>
+            <p>
+                My current long term project is to create a CAD tool for creating roller coaster track layouts and then simulating a roller coaster going round the 
+                generated track. This will be created in a modified version of my game engine and use B-Splines to edit the layout of the track, however this 
+                project is still only in the research phase so aspects of it might change.
+            </p>
+        </div>
+        <!----------------------------------About Me-->
+        <h2>About Me</h2>
+        <div class="textMiddle">
+            <p>
+                I am currently a third year student in my final year a Bournemouth university studying games software engineering. Outside of education I spend a lot of 
+                time playing both video and board games with my favourites being Titanfall 2, Go, Minecraft and any multiplayer horror  games. Besides game my other 
+                hobbies include listening to music, watching anime and reading manga.
+            </p>
+        </div>
     </div>
 </body>
 </html>
+
+<!--<div class="row">
+    <div class="leftText">
+        <h2>h2 tag test</h2>
+        <p>Test Text, this is some test text to see hoiw this will effect the plase that the video ends up going, lets see sall we</p>
+    </div>
+    <div class="rightText">
+        <div class="largeVideo">
+            <iframe width="512" height="315" src="https://www.youtube.com/embed/qohtBT0SvUw?si=BWNVAZBELMYBucf_" title="Audio Examples" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+<hr />-->

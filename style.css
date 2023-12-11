@@ -22,6 +22,11 @@ body {
     border: 4px solid black;
 }
 
+a {
+    color: dodgerblue;
+    font-size: 100%;
+    align-content: center;
+}
 
 p {
     color: white;
@@ -31,13 +36,18 @@ p {
 
 h1 {
     color: white;
-    font-size: 200%;
+    font-size: 300%;
 }
 
 
 h2 {
-    color: white;
-    font-size: 130%;
+    font-size: 170%;
+    text-align: center;
+    color: red;
+}
+
+h3 {
+    text-align: center;
 }
 
 
@@ -63,12 +73,30 @@ hr {
     top: 5%;
 }
 
+.textMiddle {
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-self: center;
+    text-align: left;
+}
+.textMiddle h2 {
+    text-decoration: underline;
+}
 
-.rightText {
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+}
+
+
+
+/*.rightText {
     width: 39%;
     align-self: center;
 }
-
 
 .leftText {
     width: 59%;
@@ -80,19 +108,12 @@ hr {
     color: red;
 }
 
-
 .row {
     display: flex;
     padding: 1%;
 }
 
-
-@media only screen and (max-width: 1000px){
-    .container {
-        width: 100%;
-    }
-}
-@media only screen and (max-width: 900px) { /*Size vertial layout is applyed*/
+@media only screen and (max-width: 900px) { Size vertial layout is applyed
     .leftText {
         width: 100%;
     }
@@ -102,4 +123,4 @@ hr {
     .row {
         display: block;
     }
-}
+}*/
