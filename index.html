@@ -17,8 +17,93 @@
     <div class="container">
         <h1>Daniel Hance</h1>
         <h2>General Programmer</h2>
-        <p>C++, c# ,openGL, SDL2, Unreal, Unity, cmake</p>
+        <p>C++, C# ,openGL, SDL2, Unreal, Unity, cmake</p>
         <p></p>
+        <hr />
+        <!------------------------------------------Spline Stuff--->
+        <p></p>
+        <div class="textMiddle">
+            <h2>Spline Model Mapper</h2>
+        </div>
+        <div class="largeVideo">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DsrypG4MJ6o?si=U2xL9nsb8etnP1Rd" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="textMiddle">
+            <p>
+                This spline project lets the user create a spline and then map a model along it, it was created within my own game engine (see section
+                below for more info). The program has an in-depth spline system that lets the user create and edit splines and add things such as roll
+                angle and minimum speeds sections along the splines curve. The user can then pass the program a path for a model file and the program will
+                output a new .obj file where the input model is mapped along the spline.
+            </p>
+            <p></p>
+            <p>
+                This program can be used for creating roller coaster/roads/train tracks that can then be imported into other programs such as unity or unreal. 
+                The program can also be used in games created within my engine as the API of the spline source has been fleshed out so it also supports animating 
+                objects along the spline curve and could be adapted for use in creating level geometry such as arches.
+            </p>
+            <h3>
+                <a href='https://github.com/DanielHance/Spline-Model-Mapper'>Source Code</a>
+                "      "<a href="include/Daniel_Hance_GSE_dissertation.pdf">Disseration</a>
+            </h3>
+            <p> </p>
+        </div>
+        <hr />
+        <!-------------------------------------------Red Engine--->
+        <p></p>
+        <div class="textMiddle">
+            <h2>Red Engine</h2>
+            <p></p>
+            <p>
+                Red Engine is a game engine created in c++ that uses OpenGL to handle graphics and uses an entity component system (ECS) architecture. There are a number 
+                of pre-made components within the engine including:
+            </p>
+            <ul>
+                <li>Transformation</li>
+                <li>Model renderer</li>
+                <li>Boxa nd mesh colliders</li>
+                <li>Ridgid body (collision response</li>
+                <li>Audio source</li>
+                <li>Camera</li>
+            </ul>
+            <p>
+                The engine also has a resource system that can cache resources such as models, sounds and shaders that provide fast load times. A library called rend was
+                created to wrap the OpenGL, the layout of this is similar to the OpenGL game project below. The spline model mapper program above was created within the engine
+                which showcases its functionality.
+            </p>
+            <p></p>
+            <h3>
+                <a href='https://github.com/DanielHance/Spline-Model-Mapper'>Source Code</a>
+                "      "<a href="include/GameEngineReport.pdf">Report</a>
+            </h3>
+            <p> </p>
+        </div>
+        <hr />
+        <!-------------------------------------------Ray Tracer--->
+        <p></p>
+        <div class="textMiddle">
+            <h2>Ray Tracer</h2>
+        </div>
+        <div class="largeImage">
+            <img src="include/RT.png" alt="Ray tracer screenshot" />
+        </div>
+        <div class="textMiddle">
+            <p>
+                This ray tracer simulates how light moves through a scene to produce highly accurate renders, it was built on top of an existing graphics library that only had the 
+                functionality to set colours of individual pixels in a window. Some of the features of this project are:
+            </p>
+            <ul>
+                <li>PBR shader</li>
+                <li>Soft shadows</li>
+                <li>Reflection</li>
+                <li>Multithreaded (for fast render times) </li>
+            </ul>
+            <p></p>
+            <h3>
+                <a href='https://github.com/DanielHance/Raytracer-v2'>Source Code</a>
+                "      "<a href='https://youtu.be/E9lkJIWpAEc'>Information Video</a>
+            </h3>
+            <p> </p>
+        </div>
         <hr />
         <!-----------------------------------------Game Studio Project-->
         <p></p>
@@ -28,34 +113,31 @@
         <div class="largeVideo">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/QxAibGXYVT0?si=WZ6muajjOKO1Lw-x" title="Spirits Unbound - 5 Minute Playthrough" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-        <!--<div class="largeVideo">
-            <iframe width="512" height="315" src="https://www.youtube.com/embed/qohtBT0SvUw?si=BWNVAZBELMYBucf_" title="TEMP CHANGE VIDEO LATER" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>-->
         <div class="textMiddle">
             <p>
                 Spirits Unbound is a third person open world game set in a world based on Native American tribes, the game was created in ue5 by a team
                 of 11 people (8 artists and 3 programmers). The game involves exploring the open world, defeating enemy tribes, changing the weather with
                 rituals, hunting animals and discovering secrets. A key aspect of the game is that every human character has a spirite animal which their
-                soul is connected to, in gameplay terms this means that they share heath and can both attack targets.
+                soul is connected to, in gameplay terms this means that they share health and can both attack targets.
             </p>
             <p></p>
             <p>
                 I took on the role of lead programmer in the group which meant I was responsible for distributing all of the programming tasks, overseeing
                 the technical design document and managing source control for the project. The areas of the game that I was responsible for programming were
-                the enemy AI and the multiple animal companions AI (this can be seen in the AI test video above). I also worked on a lot of odd jobs including
+                the enemy AI and the multiple animal companions AI (this can be seen in the AI test video linked below). I also worked on a lot of odd jobs including
                 triggers, player combat, hunting and helping the other programmer with some of their tasks. For more info check pages 7 to 11 of the technical
                 design doc.
             </p>
             <p></p>
             <p>
-                Duo to the hardware we had available the map and the game mechanics were created in diffrent ue5 projects, I was also reasonable for moving
+                Due to the hardware we had available the map and the game mechanics were created in different ue5 projects, I was also responsible for moving
                 the assets between the dev project and the main game project and dealing with all the errors that this process created.
             </p>
             <p></p>
             <h3>
-                <!--<a href='https://github.com/DanielHance/Project_Tomahawk/network'>Download</a>-->
+                <a href='https://github.com/DanielHance/Project_Tomahawk/network'>Dev Github</a>
                 "      "<a href="include/ProjectPlan.pdf">Project Plan</a>
-                <!--"      "<a href="include/GDD.pdf">Game Design Doc</a>-->
+                "      "<a href="include/GDD.pdf">Game Design Doc</a>
                 "      "<a href="include/TDD.pdf">Technical Design Doc</a>
             </h3>
             <p> </p>
@@ -74,11 +156,11 @@
                 My physics engine can simulate both static and dynamic sphere movement, the dynamic simulates both directional and rotational movement
                 using velocity, friction, weight, elasticity and gravity as well as handling collision responses with the floor and other spheres.
                 The physical properties of the spheres can be edited in an external text document to create a wide range of situations to simulate.
-                The whole physics engine is built on top of an existing graphcis engine built using openGL.
+                The whole physics engine is built on top of an existing graphics engine built using openGL.
             </p>
             <p></p>
             <h3>
-                <a href='https://github.com/DanielHance/Physics-Sim'>Code</a>
+                <a href='https://github.com/DanielHance/Physics-Sim'>Source Code</a>
                 "      "<a href="include/PhysicsDoc.pdf">Documentation</a>
             </h3>
             <p> </p>
@@ -97,50 +179,32 @@
                 This basic 3d game was made entirely from scratch using OpenGL and SDL2, the aim of this project was to wrap the OpenGL elements into
                 classes to create a graphics library that could be used to create basic 3d games without needing to use raw OpenGL code. The program is
                 capable of both perspective and orthographic projections and renders the scene to an OpenGL render texture which allows multiple postprocessing
-                shaders to be ran before the scene is pushed to the display buffer. The game itself is an endless scroller where you doge zombies which was made
+                shaders to be ran before the scene is pushed to the display buffer. The game itself is an endless scroller where you dodge zombies which was made
                 to demo the graphics library.
             </p>
             <p></p>
-            <h3><a href='https://github.com/DanielHance/OpenGL-Game'>Code</a></h3>
+            <h3><a href='https://github.com/DanielHance/OpenGL-Game'>Source Code</a></h3>
             <p> </p>
         </div>
         <hr />
-        <!--------------------------------What I am currenly Working on-->
-        <h2>Current Projects</h2>
-        <div class="textMiddle">
-            <p>
-                I am currently working on creating a multithreaded raytracer which supports PBR, shadows and reflections on sphere and other regular polyhedron.
-                I am also working on my own c++ game engine using the OpenGL, OpenAL, SDL2 and Bullet which I plan on using to create a FPS game.
-            </p>
-            <p></p>
-            <p>
-                My current long term project is to create a CAD tool for creating roller coaster track layouts and then simulating a roller coaster going round the 
-                generated track. This will be created in a modified version of my game engine and use B-Splines to edit the layout of the track, however this 
-                project is still only in the research phase so aspects of it might change.
-            </p>
-        </div>
-        <!----------------------------------About Me-->
+        <!--------------------------------What I am currenly Working on---
+
+    <h2>Current Projects</h2>
+    <div class="textMiddle">
+        <p>
+            I am current in the
+        </p>
+    </div>
+    >
+    <!----------------------------------About Me-->
         <h2>About Me</h2>
         <div class="textMiddle">
             <p>
-                I am currently a third year student in my final year a Bournemouth university studying games software engineering. Outside of education I spend a lot of 
-                time playing both video and board games with my favourites being Titanfall 2, Go, Minecraft and any multiplayer horror  games. Besides game my other 
+                I am currently a third-year student in my final year a Bournemouth university studying games software engineering. Outside of education I spend a lot of
+                time playing both video and board games with my favourites being Titanfall 2, Go, Minecraft and any multiplayer horror games. Besides games my other
                 hobbies include listening to music, watching anime and reading manga.
             </p>
         </div>
     </div>
 </body>
 </html>
-
-<!--<div class="row">
-    <div class="leftText">
-        <h2>h2 tag test</h2>
-        <p>Test Text, this is some test text to see hoiw this will effect the plase that the video ends up going, lets see sall we</p>
-    </div>
-    <div class="rightText">
-        <div class="largeVideo">
-            <iframe width="512" height="315" src="https://www.youtube.com/embed/qohtBT0SvUw?si=BWNVAZBELMYBucf_" title="Audio Examples" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-    </div>
-</div>
-<hr />-->

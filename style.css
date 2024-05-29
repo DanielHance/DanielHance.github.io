@@ -33,6 +33,11 @@ p {
     font-size: 100%;
 }
 
+li {
+    color: white;
+    font-size: 100%;
+}
+
 
 h1 {
     color: white;
@@ -73,6 +78,23 @@ hr {
     top: 5%;
 }
 
+.largeImage {
+    position: relative;
+    width: 100%;
+    padding-bottom: 45%;
+    height: 0;
+    align-self: center;
+}
+.largeImage img{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+    object-fit: scale-down;
+    overflow: hidden;
+}
+
 .textMiddle {
     position: relative;
     width: 90%;
@@ -90,37 +112,3 @@ hr {
         width: 100%;
     }
 }
-
-
-
-/*.rightText {
-    width: 39%;
-    align-self: center;
-}
-
-.leftText {
-    width: 59%;
-    align-self: flex-start;
-    text-align: left;
-}
-.leftText h2{
-    text-align: center;
-    color: red;
-}
-
-.row {
-    display: flex;
-    padding: 1%;
-}
-
-@media only screen and (max-width: 900px) { Size vertial layout is applyed
-    .leftText {
-        width: 100%;
-    }
-    .rightText {
-        width: 100%;
-    }
-    .row {
-        display: block;
-    }
-}*/
